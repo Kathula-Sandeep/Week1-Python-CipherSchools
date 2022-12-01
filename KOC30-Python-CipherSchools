@@ -1,1 +1,192 @@
-print("Sandeep")
+#no code given just explained about how to install it
+
+print("Hello World")
+
+
+#"#" is used for commenting.It is a single line commentng code.the information written in it is completely ignored
+#this is a comment
+
+
+'''this is a mulity
+line
+comment'''
+
+'''Every line executed in python is either:
+1)statement
+2)expression '''
+
+#("""this isn't a comment this is refered to be a string.if we write anything in this we will get output.""")
+"hello"
+
+a='a'
+print(type(a))
+
+'''
+data types
+1)integer
+2)string
+3)complex
+4)float
+5)boolean
+'''
+
+#a variable is an object which can store any data type value
+c="a"
+print(c)
+b=255
+print(b)
+#ram addres of variable
+print(hex(id(b)))
+#rules of variables
+#1)first letter of the variable should be alphabet or a underscore
+#2)other letter can be anything.
+
+print("jatin katyal")
+print(1)
+print(1,2,3.4,"jatin",3.4j)
+print(1,2,3.4,"jatin",3.4j,sep=",")
+print("hello",end=";")
+print("world")
+print(1,2,3,4,5,6)
+print("a",end=")")
+print("b")
+print("c")
+
+a=input()
+print(a)
+print(type(a))
+
+'''
+arithmetic operators
+1)+
+2)-
+3)*
+4)/
+5)//
+6)|
+7)%
+8)**
+'''
+
+print(5+5)
+print(5-10)
+print(10/3)
+print(10//3)
+print(2**3)
+print(10%3)
+print("jatin"+"kathyal")
+print("abc*6")
+'''
+comparison operators
+1)==
+2)!=
+3)>
+4)<
+5)<=
+6)>=
+'''
+print(1==2)
+print(1!=2)
+print(1<2)
+print(2>3)
+print("ab"<"z")
+
+'''
+logical operators
+1)not
+2)and
+3)or
+'''
+print(True or False)
+print(True and False)
+print(True or 1)
+
+'''if else statements are noting but conditions like
+if a is b:
+    print(this)
+elif a is not b:
+    print(this)
+else:
+    print(whatever)'''
+#after every condition line the next line should have an indent
+#indent=2 spaces,4 spaces,tab,8 spaces
+a=int(input())
+if a==3:
+    print("this value is 3")
+elif a==5:
+    print("this value is 5")
+else:
+    print("this value is not 3 nor 5")
+    
+#a loop is a code with a condition which when satisfied runs a repetative code
+# it ia also same as condition statement line should end with colon and next line should have indent
+a=int(input())
+while a<10:
+    print(a)
+    a+=1
+
+#we use while loop when we don't know how many iterations it will take
+b=int(input())
+for i in range(0,b+1):
+    print(b)
+
+#break,continue  and pass
+
+#what break does is stops the loop when the given condition is fulfilled
+c=int(input())
+for i in range(0,5):
+    if i==3:
+        break
+    print(i)
+
+#what continue does is stops the loop where the condition is fulfilled and continues the loop by leaving that conditioned object
+d=int(input())
+for i in range(0,5):
+    if i==3:
+        continue
+    print(i)
+
+#pass is an empty statement it passes on to the next statement
+
+
+for i in range(5):
+    for j in range(5):
+        print(i,end=" ")
+    print() 
+
+n=int(input())
+for i in range(n):
+    for j in range(n):
+        print(max(i+1,j+1,n-i,n-j),end=" ")
+    print()
+
+for i in range(5):
+    for j in range(5):
+        print(i,end=" ")
+    print() 
+
+for i in range(5):
+    for j in range(5):
+        print(i,end=" ")
+    print() 
+
+for i in range(5):
+    for j in range(5):
+        print(max(i,j),end=" ")
+    print() 
+
+for i in range(5):
+    for j in range(5):
+        print(n-i,end=" ")
+    print() 
+
+for i in range(5):
+    for j in range(5):
+        print(n-j,end=" ")
+    print() 
+
+n=int(input())
+for i in range(n):
+    for j in range(n):
+        print(max(i+1,j+1,n-i,n-j),end=" ")
+    print()
